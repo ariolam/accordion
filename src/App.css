@@ -1,0 +1,8 @@
+body {
+  background-color: #42855b;
+}
+.container {
+  max-width: 600px;
+  background-color: aliceblue;
+  margin-top: 80px;
+}
