@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai";
 
 function Questions({ question }) {
   const [showAnswer, setShowAnswer] = useState(false);
@@ -11,8 +12,7 @@ function Questions({ question }) {
         </div>
         <div className="col">
           <button onClick={() => setShowAnswer(!showAnswer)}>
-            {" "}
-            Press here{" "}
+            {showAnswer ? <AiFillMinusCircle /> : <AiFillPlusCircle />}
           </button>
           {showAnswer && <p> {question.info}</p>}
         </div>
