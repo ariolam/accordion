@@ -1,3 +1,18 @@
-body {
-  background-color: aliceblue;
+h6 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+}
+.question-container {
+  margin: 35px 3px;
+}
+.btn {
+  color: #3d8361;
+  position: relative;
+  bottom: 32px;
+}
+.btn:hover {
+  color: #3d8361;
 }
