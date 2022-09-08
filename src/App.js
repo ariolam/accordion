@@ -1,7 +1,7 @@
-import Questions from "./Questions";
+import React, { useState } from "react";
+import Questions from "./questions";
 import data from "./data";
 import "./App.css";
-import { useState } from "react";
 
 function App() {
   const [question] = useState(data);
