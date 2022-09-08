@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiFillPlusCircle, AiFillMinusCircle } from "react-icons/ai";
+import "./Questions.css";
 
 function Questions({ question }) {
   const [showAnswer, setShowAnswer] = useState(false);
